@@ -6,7 +6,7 @@ make sure u have the latest version of nvim (at least 0.5.x)
 clone this repository into the Folder  ~/.config/
 or just run the following command inside a terminal
 ``` 
-git clone https://github.com/mavonarx/nvim.git ~/.config/
+git clone https://github.com/mavonarx/nvim.git ~/.config/nvim
 ```
 
 use a font in your terminal that supports icons (nerd fonts)
