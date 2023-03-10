@@ -23,3 +23,10 @@ nvim <filename.ext> (replace this with the actual file name)
 
 You can see the file tree with ctrl-n and search for files with ctrl-p
 You can close the editor with :wqa (closes all open tabs and saves them)
+
+
+to enable it also for the root user (and sudo)
+```
+sudo mkdir /root/.config/
+sudo ln -s ~/.config/nvim /root/.config/nvim
+```
