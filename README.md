@@ -1,6 +1,8 @@
 # nvim
 ## How to use
 
+make sure you have a g++ and gcc compiler
+
 make sure u have the latest version of nvim (at least 0.5.x)
 
 clone this repository into the Folder  ~/.config/
