@@ -10,7 +10,7 @@ M.ui = {
                 modules,
                 11,
                 (function()
-                    local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+                    local line, col = table.unpack(vim.api.nvim_win_get_cursor(0))
                     return "L" .. line .. ",C" .. (col + 1)
                 end)()
             )
@@ -18,4 +18,5 @@ M.ui = {
     },
 }
 M.plugins = 'custom.plugins'
+M.mappings = require("custom.mappings")
 return M
