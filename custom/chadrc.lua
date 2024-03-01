@@ -10,7 +10,7 @@ M.ui = {
                 modules,
                 11,
                 (function()
-                    local line, col = table.unpack(vim.api.nvim_win_get_cursor(0))
+                    local line, col = unpack(vim.api.nvim_win_get_cursor(0))
                     return "L" .. line .. ",C" .. (col + 1)
                 end)()
             )
