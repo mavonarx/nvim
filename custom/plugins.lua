@@ -69,12 +69,6 @@ local plugins = {
   },
 
   {
-  'stevearc/overseer.nvim',
-    lazy=false,
-    opts = {},
-  },
-
-  {
     "rust-lang/rust.vim",
     ft = "rust",
     init = function ()
