@@ -40,6 +40,9 @@ local plugins = {
         "lua-language-server",
         -- python
         "pyright",
+        -- java
+        -- -- java
+        "jdtls",
       },
     },
   },
@@ -54,6 +57,21 @@ local plugins = {
     opts = {
       handlers = {},
     },
+  },
+
+  {
+    "mfussenegger/nvim-jdtls",
+  },
+
+  {
+    "mbbill/undotree",
+    lazy=false,
+  },
+
+  {
+  'stevearc/overseer.nvim',
+    lazy=false,
+    opts = {},
   },
 
   {
