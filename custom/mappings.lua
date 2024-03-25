@@ -12,5 +12,14 @@ M.dap = {
     },
   }
 }
+M.VimTex = {
+  plugin = true,
+  n = {
+    ["<leader>ll"] = {
+      "<cmd> VimtexCompile <CR>",
+      "Compile Latex"
+    },
+  },
+}
 
 return M
