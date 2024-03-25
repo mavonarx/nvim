@@ -10,7 +10,10 @@ local plugins = {
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
-    dependencies = "mfussenegger/nvim-dap",
+    dependencies = {
+      "mfussenegger/nvim-dap",
+      "nvim-neotest/nvim-nio"
+    },
     config = function()
       local dap = require("dap")
       local dapui = require("dapui")
@@ -83,6 +86,7 @@ local plugins = {
     end
   },
   {
+<<<<<<< Updated upstream
     "simrat39/rust-tools.nvim",
     ft = "rust",
     dependencies = "neovim/nvim-lspconfig",
@@ -100,6 +104,24 @@ local plugins = {
       require("core.utils").load_mappings("VimTex")
     -- Use init for configuration, don't use the more common "config".
     end
+=======
+    'shadmansaleh/IRC.nvim',
+    rocks = 'openssl',
+    config = function()
+    require'irc'.setup({
+      servers = {
+        oftc = {
+          nick = 'silhouettez',
+          username = 'silhouettez',
+          server = 'irc.oftc.net',
+          port = 6697,
+          use_ssl = true,
+        },
+      },
+      statusline = true,
+    })
+  end,
+>>>>>>> Stashed changes
   },
 }
 return plugins
