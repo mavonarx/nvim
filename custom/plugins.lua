@@ -86,7 +86,6 @@ local plugins = {
     end
   },
   {
-<<<<<<< Updated upstream
     "simrat39/rust-tools.nvim",
     ft = "rust",
     dependencies = "neovim/nvim-lspconfig",
@@ -104,7 +103,8 @@ local plugins = {
       require("core.utils").load_mappings("VimTex")
     -- Use init for configuration, don't use the more common "config".
     end
-=======
+  },
+  {
     'shadmansaleh/IRC.nvim',
     rocks = 'openssl',
     config = function()
@@ -121,7 +121,6 @@ local plugins = {
       statusline = true,
     })
   end,
->>>>>>> Stashed changes
   },
 }
 return plugins
