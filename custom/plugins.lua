@@ -104,23 +104,5 @@ local plugins = {
     -- Use init for configuration, don't use the more common "config".
     end
   },
-  {
-    'shadmansaleh/IRC.nvim',
-    rocks = 'openssl',
-    config = function()
-    require'irc'.setup({
-      servers = {
-        oftc = {
-          nick = 'silhouettez',
-          username = 'silhouettez',
-          server = 'irc.oftc.net',
-          port = 6697,
-          use_ssl = true,
-        },
-      },
-      statusline = true,
-    })
-  end,
-  },
 }
 return plugins
