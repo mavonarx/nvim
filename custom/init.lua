@@ -1,5 +1,6 @@
 vim.opt.colorcolumn = "80"
 vim.opt.clipboard = ""
+vim.cmd('set title')
 
 local autocmd = vim.api.nvim_create_autocmd
 

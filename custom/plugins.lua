@@ -35,6 +35,7 @@ local plugins = {
       ensure_installed = {
         -- rust
         "rust-analyzer",
+        "cmake-language-server",
         -- c
         "clangd",
         "clang-format",
