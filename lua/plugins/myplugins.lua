@@ -36,6 +36,7 @@ local plugins = {
         -- rust
         "rust-analyzer",
         "cmake-language-server",
+        "typescript-language-server",
         -- c
         "clangd",
         "clang-format",
